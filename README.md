@@ -31,9 +31,9 @@
                 .setButtonRightColor(positiveButtonTextColor).setContentSize(positiveButtonTextSize)
                 .setNegativeButton(negativeButtonText, negativeButtonlistener)
                 .setPositiveButton(positiveButtonText, positiveButtonlistener).create().show();
-   
-| 方法名 | 说明 | 
-| - | - | 
+
+| 方法名 | 说明 |
+| - | - |
 |`setTitle(title)`| 设置标题|
 | `setMessage(msg)` | 设置内容 |
 | `setIconType(iconType)` | 设置图标仅"success","fail" ,"warning" |
@@ -48,15 +48,21 @@
 >* Toast 根据所传值显示内容，不传默认不生效
 >
 	CustomToast.showToast(context,"success", "文字");
-| 方法名 | 说明 | 
-| - | - | 
+| 方法名 | 说明 |
+| - | - |
 | `showToast(Context context,String icon,String msg)` | 带图标的Toast，图标仅"success","fail" ,"warning"  |
 ### 3、ProgressDialog
 >ProgressDialog 包含进度条和文字
 >
  		new ProgressDialog.Builder(context)
                         .setTitle(title).create().show();
-| 方法名 | 说明 | 
-| - | - | 
+| 方法名 | 说明 |
+| - | - |
 |`setTitle( msg)`| 设置标题|
+
+
+
+
+
+-
 
